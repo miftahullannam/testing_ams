@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>file</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>7e2b0e43-499d-4a57-9deb-dd961b75cb7f</testSuiteGuid>
+   <testCaseLink>
+      <guid>668669b8-edfb-43ed-9ac8-4f616157535b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/login/user admin/login berhasil/login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fd046b63-a319-4ac0-892d-9c5fb50f9128</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/manajement bukti/tambah manajement bukti/tambah_manajement_bukti - dari data file</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bddf8bde-b5c0-4e64-b66b-ba2e98238e2d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data_bukti/data_bukti</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>bddf8bde-b5c0-4e64-b66b-ba2e98238e2d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>judul_kegiatan</value>
+         <variableId>94c933c4-3e03-4265-9c46-3c67dadc4a53</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bddf8bde-b5c0-4e64-b66b-ba2e98238e2d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>judul_ewp</value>
+         <variableId>c1aad09e-edfa-4a08-b217-3ba9476bf72e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bddf8bde-b5c0-4e64-b66b-ba2e98238e2d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>program_audit</value>
+         <variableId>0ef0ca2b-9935-4a7a-8da4-25eec909e6f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bddf8bde-b5c0-4e64-b66b-ba2e98238e2d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>tgl_bukti</value>
+         <variableId>4ae819b2-d27f-4a44-bd1d-27adb37fae83</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bddf8bde-b5c0-4e64-b66b-ba2e98238e2d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>deskripsi_bukti</value>
+         <variableId>578ea047-6d32-46b2-8849-9b30ab096cf0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bddf8bde-b5c0-4e64-b66b-ba2e98238e2d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>upload</value>
+         <variableId>96973830-951a-4e84-afa2-2ba609576cfe</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
